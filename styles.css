@@ -12,9 +12,9 @@ body {
   margin: 0%;
 }
 
-/* #body1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-} */
+#body1 {
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+}
 
 /* ------------------------Tabs---------------------------------------- */
 .tabs1 {
@@ -138,7 +138,7 @@ body {
   grid-template-columns: 20% 80%;
 }
 #sidebar1 {
-  height: 1000px;
+  height: auto;
   display: flex;
   background: teal;
   opacity: 60%;
@@ -147,8 +147,9 @@ body {
 
 #innerbody1 {
   color: white;
-  height: auto;
-  width: 450px;
+  /* height: auto; */
+  width: 100%;
+  min-width: none;
   font-size: 15px;
   margin-left: 30px;
   font-family: monospace;
@@ -162,8 +163,8 @@ body {
   background: rgba(128, 128, 128, 0.226);
   border-radius: 10px;
   padding: 10px;
-  min-width: 200px;
-  max-width: 300px;
+  width: 30vh;
+  height: auto;
 }
 
 #firstparagraph1:hover {
@@ -175,9 +176,9 @@ body {
 }
 
 #img2 {
-  min-width: 200px;
-  max-width: 300px;
+  width: 30vh;
   height: auto;
+
   opacity: 65%;
   border-radius: 20px;
   transition: transform 3s ease-in-out;
@@ -190,8 +191,8 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
   margin-top: 0;
-  min-width: 200px;
-  max-width: 300px;
+  width: 30vh;
+  height: auto;
 }
 #quote1:hover {
   color: rgb(0, 25, 32);
@@ -202,9 +203,9 @@ body {
 }
 
 #img3 {
-  min-width: 200px;
-  max-width: 300px;
+  width: 30vh;
   height: auto;
+
   opacity: 65%;
   border-radius: 20px;
 }
@@ -220,16 +221,15 @@ body {
 
 .middleSectionServices1 {
   display: grid;
-  max-width: 100%;
   margin-top: 100px;
   background-color: rgba(158, 158, 255, 0.226);
   border-radius: 15px;
 }
 
 #fif1 {
-  font-size: 80px;
-  min-width: 200px;
-  max-width: 300px;
+  font-size: 10vh;
+  width: 30vh;
+  height: auto;
 }
 #fiftyfifty {
   display: block;
@@ -245,30 +245,27 @@ body {
   color: blue;
   font-size: 20px;
   opacity: 80%;
-  min-width: 200px;
-  max-width: 300px;
+  width: 30vh;
+  height: auto;
 }
 
 #img4 {
-  min-width: 200px;
-  max-width: 300px;
+  width: 30vh;
   height: auto;
   opacity: 65%;
   border-radius: 20px;
 }
 
 #img5 {
-  min-width: 200px;
-  max-width: 300px;
+  width: 30vh;
   height: auto;
   opacity: 65%;
   border-radius: 20px;
 }
 
 #servWords {
-  max-width: 500px;
-  min-width: 200px;
-  width: 300px;
+  width: 30vh;
+  height: auto;
   display: block;
 }
 /* ------------------------------------------------------------ */
@@ -277,7 +274,7 @@ body {
 
 #provide1 {
   color: black;
-  font-size: 22px;
+  font-size: 5vh;
 }
 #emailBody1 {
   font-size: 30px;
@@ -285,8 +282,8 @@ body {
   margin-top: 30px;
   border-radius: 15px;
   color: rgb(97, 0, 153);
-  min-width: 200px;
-  max-width: 300px;
+  width: 40vh;
+  height: auto;
 }
 
 /* ------------------------------------------------------------ */
@@ -302,4 +299,5 @@ body {
   float: left;
   text-align: center;
   color: rgb(241, 210, 255);
+  font-size: 10px;
 }
