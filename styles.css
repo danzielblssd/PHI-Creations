@@ -1,0 +1,279 @@
+body {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.82),
+      rgba(158, 158, 255, 0.84),
+      rgba(128, 0, 128, 0.82)
+    ),
+    url(rocks-1757593.jpg);
+  background-size: cover;
+  background-position: top;
+  padding: 0%;
+  margin: 0%;
+}
+
+#body1 {
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+}
+
+/* ------------------------Tabs---------------------------------------- */
+.tabs1 {
+  background: rgb(97, 0, 153);
+  opacity: 80%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.tabs1 > * {
+  flex-basis: 100%;
+}
+
+#tabcont1 {
+  font-weight: 400;
+  font-size: 20px;
+  text-shadow: 1px;
+  height: 20px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+/* unvisited link */
+#tabcont1 a:link {
+  color: rgb(241, 210, 255);
+}
+
+/* visited link */
+#tabcont1 a:visited {
+  color: rgb(241, 210, 255);
+  text-decoration: none;
+}
+
+/* mouse over link */
+#tabcont1 a:hover {
+  color: rgb(194, 93, 194);
+}
+
+/* selected link */
+#tabcont1 a:active {
+  color: rgb(241, 210, 255);
+}
+
+/* hamburger animation */
+
+.menu-button1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border: 3px solid #fff;
+}
+
+.burger1 {
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+.burger1::before,
+.burger1::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+.burger1 ::before {
+  transform: translateY(-16px);
+}
+
+.burger1::after {
+  transform: translateY(16px);
+}
+
+.burger1 {
+  width: 50px;
+  height: 6px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+/* hamburger animation */
+
+.menu-button1.open .burger1 {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.menu-button1.open .burger1::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-button1.open .burger1::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/* ------------------------------------------------------------ */
+
+/* ------------------------Middle section---------------------------------------- */
+
+.middlesection1 {
+  font-weight: 100;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+#sidebar1 {
+  height: 1000px;
+  display: flex;
+  background: teal;
+  opacity: 60%;
+  float: left;
+}
+
+#innerbody1 {
+  color: white;
+  height: auto;
+  width: 450px;
+  font-size: 15px;
+  margin-left: 30px;
+  font-family: monospace;
+}
+
+#firstparagraph1 {
+  overflow-x: hidden;
+}
+#firstparagraph1 {
+  margin-top: 13px;
+  background: rgba(128, 128, 128, 0.226);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#firstparagraph1:hover {
+  color: rgb(0, 25, 32);
+
+  transform: scaleX(1.12) scaleY(1.12) scaleZ(1.5);
+  transition: 1.5s ease-in-out;
+  font-size: 18px;
+}
+
+#img2 {
+  width: 450px;
+  height: auto;
+  opacity: 65%;
+  border-radius: 20px;
+  transition: transform 3s ease-in-out;
+}
+
+#img2:hover {
+  transform: rotate(360deg);
+}
+#quote1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  margin-top: 0;
+}
+#quote1:hover {
+  color: rgb(0, 25, 32);
+  font-size: 25px;
+
+  transform: scaleX(1.12) scaleY(1.12) scaleZ(1.5);
+  transition: 1.5s ease-in-out;
+}
+
+#img3 {
+  width: 450px;
+  height: auto;
+  opacity: 65%;
+  border-radius: 20px;
+}
+#img3:hover {
+  transform: scale(
+    1.05
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/* ------------------------------------------------------------ */
+
+/* ------------------------Services---------------------------- */
+
+.middleSectionServices1 {
+  display: grid;
+  width: 70vh;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgba(158, 158, 255, 0.226);
+  border-radius: 15px;
+}
+
+#fif1 {
+  font-size: 80px;
+}
+
+#cost1 {
+  color: blue;
+  font-size: 20px;
+  opacity: 80%;
+}
+
+#img4 {
+  width: 200px;
+  height: auto;
+  opacity: 65%;
+  border-radius: 20px;
+}
+
+#img5 {
+  width: 200px;
+  height: auto;
+  opacity: 65%;
+  border-radius: 20px;
+}
+/* ------------------------------------------------------------ */
+
+/* ---------------------------Contact--------------------------------- */
+
+#provide1 {
+  color: black;
+  font-size: 22px;
+}
+#emailBody1 {
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.397);
+  margin-top: 30px;
+  border-radius: 15px;
+  color: rgb(97, 0, 153);
+}
+
+/* ------------------------------------------------------------ */
+
+#footer1 {
+  background: rgb(47, 32, 129);
+  opacity: 80%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 10vh;
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: rgb(241, 210, 255);
+}
