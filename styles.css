@@ -12,9 +12,9 @@ body {
   margin: 0%;
 }
 
-#body1 {
-  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
-}
+/* #body1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+} */
 
 /* ------------------------Tabs---------------------------------------- */
 .tabs1 {
@@ -162,6 +162,8 @@ body {
   background: rgba(128, 128, 128, 0.226);
   border-radius: 10px;
   padding: 10px;
+  min-width: 200px;
+  max-width: 300px;
 }
 
 #firstparagraph1:hover {
@@ -173,7 +175,8 @@ body {
 }
 
 #img2 {
-  width: 450px;
+  min-width: 200px;
+  max-width: 300px;
   height: auto;
   opacity: 65%;
   border-radius: 20px;
@@ -187,6 +190,8 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
   margin-top: 0;
+  min-width: 200px;
+  max-width: 300px;
 }
 #quote1:hover {
   color: rgb(0, 25, 32);
@@ -197,7 +202,8 @@ body {
 }
 
 #img3 {
-  width: 450px;
+  min-width: 200px;
+  max-width: 300px;
   height: auto;
   opacity: 65%;
   border-radius: 20px;
@@ -214,11 +220,7 @@ body {
 
 .middleSectionServices1 {
   display: grid;
-  width: 70vh;
-  grid-template-columns: 50% 50%;
-  align-items: center;
-  align-content: center;
-  text-align: center;
+  max-width: 100%;
   margin-top: 100px;
   background-color: rgba(158, 158, 255, 0.226);
   border-radius: 15px;
@@ -226,26 +228,48 @@ body {
 
 #fif1 {
   font-size: 80px;
+  min-width: 200px;
+  max-width: 300px;
+}
+#fiftyfifty {
+  display: block;
+  position: relative;
+  margin-left: 20px;
+}
+#theonefifty {
+  display: block;
+  margin-left: 20px;
 }
 
 #cost1 {
   color: blue;
   font-size: 20px;
   opacity: 80%;
+  min-width: 200px;
+  max-width: 300px;
 }
 
 #img4 {
-  width: 200px;
+  min-width: 200px;
+  max-width: 300px;
   height: auto;
   opacity: 65%;
   border-radius: 20px;
 }
 
 #img5 {
-  width: 200px;
+  min-width: 200px;
+  max-width: 300px;
   height: auto;
   opacity: 65%;
   border-radius: 20px;
+}
+
+#servWords {
+  max-width: 500px;
+  min-width: 200px;
+  width: 300px;
+  display: block;
 }
 /* ------------------------------------------------------------ */
 
@@ -261,6 +285,8 @@ body {
   margin-top: 30px;
   border-radius: 15px;
   color: rgb(97, 0, 153);
+  min-width: 200px;
+  max-width: 300px;
 }
 
 /* ------------------------------------------------------------ */
