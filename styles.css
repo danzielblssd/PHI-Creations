@@ -344,39 +344,3 @@ button:hover {
   font-size: 25px;
   color: rgb(97, 0, 153);
 }
-#status {
-  width: 90%;
-  max-width: 300px;
-  text-align: left;
-  float: left;
-  padding: 10px;
-  margin: 0 auto;
-  border-radius: 8px;
-  font-size: 35px;
-}
-
-#status.success {
-  background-color: green;
-  animation: status 4s ease forwards;
-}
-#status.error {
-  background-color: red;
-  color: white;
-  animation: status 4s ease forwards;
-}
-@keyframes status {
-  0% {
-    opacity: 1;
-    pointer-events: all;
-  }
-
-  90% {
-    opacity: 1;
-    pointer-events: all;
-  }
-
-  100% {
-    opacity: 0;
-    pointer-events: none;
-  }
-}
